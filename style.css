@@ -16,6 +16,12 @@
     height: 85px;
     outline: none;
     font-size: 30px;
+    background-color: rgb(63, 61, 61);
+}
+.button.button:active
+{
+  background-color: blue;
+  box-shadow: inset black;
 }
 #clearbutton
 {
