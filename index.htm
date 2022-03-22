@@ -8,21 +8,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body style="background-color: rgb(250, 229, 229);">
 
     <table class="cal">
-        <tr>
-            
-            <td> <input type="button"  style="width: 90px; background-color: rgb(156, 71, 10);"></td>
-
-        </tr>
-
+      
 
 
         <tr>
-            <td colspan="3"> <input class="display-box"  id="result"  disabled></td>      <!--calsi screen side -->
+            <td colspan="4"> <input class="display-box"  id="result"  ></td>      <!--calsi screen side -->
 
-            <td> <input  id="clearbutton"  type="button" value="C" onclick="clearScreen()" ></td> <!--clear button side, clearScreen() for used to clear the calsi screen -->
+           <!--clear button side, clearScreen() for used to clear the calsi screen -->
         </tr>
 
 
@@ -53,6 +48,13 @@
             <td><input class="button" type="button" value="0" onclick="display('0')"></td>
             <td> <input  class="button" type="button" value="=" onclick="calculate()"></td>      <!-- calculate() is use to calculate the value-->
             <td> <input  class="button" type="button" value="*" onclick="display('*')"></td>    <!-- display() is use to display the value in the calsi-->
+        </tr>
+
+        <tr>
+            <td><input class="button" type="button" value="del" onclick="del()" ></td>
+            <td><input class="button" type="button" onclick="" ></td>
+            <td colspan="2"> <input  id="clearbutton"  type="button" value="C" onclick="clearScreen()" ></td> 
+           
         </tr>
 
 
