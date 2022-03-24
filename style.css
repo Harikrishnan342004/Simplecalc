@@ -16,8 +16,8 @@
 .button
 {
 
-    width: 90px;
-    height: 85px;
+    width: 70px;
+    height: 70px;
     
     font-size: 30px;
     background-color: #ecf0f3;
@@ -32,10 +32,10 @@
 }
 #clearbutton
 {
-   width: 180px;
-   height: 71px;
+   width: 150px;
+   height: 65px;
    font-size: x-large;
-   background-color:;
+   
    border-radius: 38px;
     
 }
@@ -47,4 +47,5 @@
     font-size: 30px;
     border-radius: 30px;
     background-color: #ecf0f3;
+    padding-left: 6px;
 }
