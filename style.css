@@ -1,0 +1,61 @@
+.cal
+{
+    
+    margin: auto;
+    /*border: 2px solid black;*/
+
+    border-radius: 20px;
+    height: 560px;
+    width: 350px;
+    background-color:  #ecf0f3;
+    border: 1px solid   rgb(119, 118, 118);
+    box-shadow: 6px 6px rgb(187, 182, 182);
+
+    
+
+}
+
+.button
+{
+
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    background-color: #ecf0f3;
+    border-radius: 100%;
+    box-shadow: 2px 3px   rgb(187, 182, 182);
+    border: 2px solid rgb(119, 118, 118);            /* numbers button css style side */
+}
+
+.button:active
+{
+  background-color:rgb(187, 182, 182) ;
+  
+}
+
+
+#clearbutton
+{
+   width: 60px;
+   height: 60px;
+   font-size: x-large;
+   outline:none;
+   border-radius: 38px;
+   border: 2px solid rgb(119, 118, 118); 
+   box-shadow: 2px 3px   rgb(187, 182, 182);
+   
+    
+}
+
+.display-box
+{
+    width: 90%;
+    height: 55px;
+    font-size: 30px;
+    border-radius: 30px;
+    background-color: #ecf0f3;
+    border: 2px solid rgb(134, 131, 131);
+    box-shadow: inset 4px 5px  rgb(187, 182, 182) ;
+    padding-left: 20px;
+    
+}
