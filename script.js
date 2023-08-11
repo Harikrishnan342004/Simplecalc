@@ -19,7 +19,7 @@ function calculate()
 
 function del(value)
 {
-     document.getElementById("result").  value.slice(0 , -1);
+     result.value = result.value.slice(0 , -1);
 
 }
 
